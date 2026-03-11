@@ -215,7 +215,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12">
           {[
             { label: "Alunos", value: "500+" },
-            { label: "Anos Exp.", value: "8+" },
+            { label: "Anos Exp.", value: "7+" },
             { label: "Satisfação", value: "99%" },
             { label: "Protocolos", value: "100%" }
           ].map((stat, i) => (
@@ -366,7 +366,7 @@ export default function App() {
             </div>
             
             <div className="absolute -bottom-6 -right-6 md:-bottom-10 md:-right-10 bg-dark-bg border border-white/10 p-6 md:p-10 rounded-[1.5rem] md:rounded-[2.5rem] shadow-2xl z-20">
-              <p className="text-4xl md:text-5xl font-black text-neon-green mb-1 tracking-tighter">+8</p>
+              <p className="text-4xl md:text-5xl font-black text-neon-green mb-1 tracking-tighter">+7</p>
               <p className="text-[10px] font-black text-white/40 uppercase tracking-[0.2em]">Anos de Experiência</p>
             </div>
           </motion.div>
@@ -389,7 +389,7 @@ export default function App() {
                 "Graduado em Nutrição pela PUC Minas",
                 "Pós-graduado em Nutrição Esportiva",
                 "Especialista em estética e performance",
-                "Mais de 8 anos transformando shapes"
+                "Mais de 7 anos transformando shapes"
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-4 text-white/80 group">
                   <div className="w-6 h-6 rounded-full bg-neon-green/20 flex items-center justify-center group-hover:bg-neon-green transition-colors shrink-0">
